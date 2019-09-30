@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Sans Unicode”, “Lucida Grande”, sans-serif;
+    color: white;
+   
+}
+
+header{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+body{
+    background: #3c91f1;
+}
+main {
+    
+    max-width: 800px;
+    width: 100%;
+    margin:20px 50px;
+    
+}
+ul {
+    font-size: 0px;
+    
+}
+p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+li{
+    display: inline-block;
+    padding: 5px;
+    outline: 2px solid white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+    
+}
+li[id*=one] {
+    width: 25%;
+
+}
+
+li[id*=two] {
+    width: 50%;
+}
+
+#three {
+    width: 100%;
+    background-color: #bd82e7
+}
+#two1 {
+    background-color: #4352de;
+}
+#one2 {
+    background-color: #42eef4;
+}
+#one3 {
+    background-color: #8e15c1;
+}
+#one4 {
+    background-color: #9b1346;
+}
+#one5 {
+    background-color: #c3691f;
+}
+#one6 {
+    background-color: #e6d43a
+}
+#one7 {
+    background-color: #79cd9b;
+}
+#one8 {
+    background-color: #25a1b8;
+}
+#one10 {
+    background-color: #319153;
+}
+#two9 {
+    background-color: #d57fd8;
+}
+
+ul:hover li {
+    opacity: 0.6;
+    cursor: pointer;
+}
+ul li:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
